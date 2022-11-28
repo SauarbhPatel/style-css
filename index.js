@@ -13,9 +13,9 @@ function s2(option){
     else {
         option.shadow_type = '20px'
     }
-    color.forEach(image=>{
+    image.forEach(image=>{
         image.style.boxShadow='10px 10px 10px rgba(0,0,0,0.5)';
         image.style.padding='10px';
     })
 }
-module.exports.s1=s1;
+module.exports.s2=s2;
